@@ -21,7 +21,7 @@ model Category {
 }
 
 model UnitCategory {
-  id        Int      @id @default(autoincrement())
+  id        String      @id @default(cuid())
   category  String   @unique
   mainUnit  String
   units     Unit[]
@@ -32,9 +32,9 @@ model UnitCategory {
 }
 
 model Unit {
-  id             Int          @id @default(autoincrement())
+  id             String          @id @default(cuid())
   name           String
-  unitCategoryId Int
+  unitCategoryId String
   unitCategory   UnitCategory @relation(fields: [unitCategoryId], references: [id])
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt

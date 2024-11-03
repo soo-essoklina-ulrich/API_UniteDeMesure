@@ -1,5 +1,5 @@
 {
-    "watch": ["**/*"],
-    "ext": ".ts, .js, .*",
-    "exec": "tsc --build && node ./dist/bin/www.js"
+  "watch": ["**/*"],
+  "ext": ".ts, .js, .*",
+  "exec": "ts-node ./src/bin/www.ts"
 }
