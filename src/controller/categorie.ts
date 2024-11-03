@@ -4,7 +4,6 @@ import { prismaClient } from '../app';
 
 export const CreateCategorie = async (req: Request, res: Response, next: NextFunction) => {
     let {libelle} = req.body;
-    console.log(req.body);
     let categorie = await  prismaClient.category.create({
         data: {
             libelle: String(libelle)
@@ -15,7 +14,7 @@ export const CreateCategorie = async (req: Request, res: Response, next: NextFun
     res.json(categorie);
 }
 export const getCategories = async (req: Request, res: Response, next: NextFunction) => {
-    let categorielist = await  prismaClient.category.findMany().catch((err) => {});
+    let categorielist = await  prismaClient.category.findMany().catch((err) => {console.log(err)});
     res.json(categorielist);
 }
 export const getCategoriebyId = async (req: Request, res: Response, next: NextFunction) => {
