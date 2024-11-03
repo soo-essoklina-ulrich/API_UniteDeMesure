@@ -1,0 +1,124 @@
+{
+  "units": [
+    {
+      "category": "Longueur (Distance)",
+      "main_unit": "mètre",
+      "units": ["millimètre", "centimètre", "décimètre", "kilomètre", "pouce", "pied", "yard", "mile"]
+    },
+    {
+      "category": "Masse (Poids)",
+      "main_unit": "kilogramme",
+      "units": ["gramme", "milligramme", "tonne", "livre", "once", "stone"]
+    },
+    {
+      "category": "Temps",
+      "main_unit": "seconde",
+      "units": ["milliseconde", "minute", "heure", "jour", "semaine", "mois", "année", "décennie", "siècle", "millénaire"]
+    },
+    {
+      "category": "Température",
+      "main_unit": "kelvin",
+      "units": ["celsius", "fahrenheit"]
+    },
+    {
+      "category": "Courant électrique",
+      "main_unit": "ampère",
+      "units": ["milliampère", "microampère", "kiloampère"]
+    },
+    {
+      "category": "Quantité de matière",
+      "main_unit": "mole",
+      "units": []
+    },
+    {
+      "category": "Intensité lumineuse",
+      "main_unit": "candela",
+      "units": ["lumen", "lux"]
+    },
+    {
+      "category": "Aire (Surface)",
+      "main_unit": "mètre carré",
+      "units": ["centimètre carré", "hectare", "kilomètre carré", "pouce carré", "pied carré", "acre"]
+    },
+    {
+      "category": "Volume",
+      "main_unit": "mètre cube",
+      "units": ["centimètre cube", "décimètre cube", "litre", "millilitre", "hectolitre", "pint", "gallon"]
+    },
+    {
+      "category": "Vitesse",
+      "main_unit": "mètre par seconde",
+      "units": ["kilomètre par heure", "centimètre par seconde", "miles par heure", "nœud"]
+    },
+    {
+      "category": "Accélération",
+      "main_unit": "mètre par seconde carrée",
+      "units": ["g"]
+    },
+    {
+      "category": "Force",
+      "main_unit": "newton",
+      "units": ["dyne", "kilonewton", "livre-force"]
+    },
+    {
+      "category": "Pression",
+      "main_unit": "pascal",
+      "units": ["bar", "hectopascal", "kilopascal", "millimètre de mercure", "atmosphère", "livre par pouce carré"]
+    },
+    {
+      "category": "Énergie, Travail, Quantité de chaleur",
+      "main_unit": "joule",
+      "units": ["kilojoule", "calorie", "kilocalorie", "watt-heure", "kilowatt-heure", "BTU"]
+    },
+    {
+      "category": "Puissance",
+      "main_unit": "watt",
+      "units": ["kilowatt", "mégawatt", "cheval-vapeur"]
+    },
+    {
+      "category": "Charge électrique",
+      "main_unit": "coulomb",
+      "units": ["milliampère-heure", "ampère-heure"]
+    },
+    {
+      "category": "Potentiel électrique (Tension)",
+      "main_unit": "volt",
+      "units": ["millivolt", "kilovolt"]
+    },
+    {
+      "category": "Capacité électrique",
+      "main_unit": "farad",
+      "units": ["microfarad", "nanofarad", "picofarad"]
+    },
+    {
+      "category": "Résistance électrique",
+      "main_unit": "ohm",
+      "units": ["kiloohm", "mégaohm"]
+    },
+    {
+      "category": "Fréquence",
+      "main_unit": "hertz",
+      "units": ["kilohertz", "mégahertz", "gigahertz"]
+    },
+    {
+      "category": "Angle plan",
+      "main_unit": "radian",
+      "units": ["degré", "minute d'arc", "seconde d'arc"]
+    },
+    {
+      "category": "Angle solide",
+      "main_unit": "stéradian",
+      "units": []
+    },
+    {
+      "category": "Radioactivité",
+      "main_unit": "becquerel",
+      "units": ["curie"]
+    },
+    {
+      "category": "Dose absorbée, équivalente et efficace (radioprotection)",
+      "main_unit": "gray",
+      "units": ["sievert", "millisievert"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "categories": [
+    "Longueur (Distance)",
+    "Masse (Poids)",
+    "Temps",
+    "Température",
+    "Courant électrique",
+    "Quantité de matière",
+    "Intensité lumineuse",
+    "Aire (Surface)",
+    "Volume",
+    "Vitesse",
+    "Accélération",
+    "Force",
+    "Pression",
+    "Énergie, Travail, Quantité de chaleur",
+    "Puissance",
+    "Charge électrique",
+    "Potentiel électrique (Tension)",
+    "Capacité électrique",
+    "Résistance électrique",
+    "Fréquence",
+    "Angle plan",
+    "Angle solide",
+    "Radioactivité",
+    "Dose absorbée, équivalente et efficace (radioprotection)"
+  ]
+}

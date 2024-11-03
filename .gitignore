@@ -6,3 +6,4 @@ prisma/dev.db
 prisma/migrations
 .idea/
 .rest/
+tsconfig.tsbuildinfo
