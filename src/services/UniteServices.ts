@@ -8,11 +8,7 @@ export class UniteServices {
           category: String(data.category),
           mainUnit: String(data.mainUnit),
           units: {
-            create: [
-              {
-                name: data.units.map((unit: string) => ({ name: unit })),
-              },
-            ],
+            create: data.units.map((unit: string) => ({ name: unit })),
           },
         },
       })
