@@ -66,8 +66,8 @@ export class UniteController {
     next: NextFunction
   ) => {
     try {
-      await this.uniteServices.deleteUnite(req.params.id);
-      res.status(204).end();
+      const response = await this.uniteServices.deleteUnite(req.params.id);
+      res.status(204).json(response).end();
     } catch (error) {
       next(error);
     }

@@ -71,6 +71,6 @@ export class UniteServices {
       .catch((err) => {
         console.log(err);
       });
-    return unite;
+    return { message: "Unite deleted successfully" };
   }
 }
