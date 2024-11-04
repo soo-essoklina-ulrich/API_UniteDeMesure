@@ -5,9 +5,8 @@
   "scripts": {
     "seed": "ts-node ./src/prisma/seed.ts",
     "build": "tsc --build",
-    "start": "ts-node ./src/bin/www.ts",
-    "dev": "nodemon",
-    "vercel-build": "tsc --project tsconfig.json"
+    "start": "node ./src/bin/www.js",
+    "dev": "nodemon"
   },
   "dependencies": {
     "@prisma/client": "^5.21.1",
