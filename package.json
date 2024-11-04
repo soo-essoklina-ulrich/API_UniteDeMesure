@@ -5,7 +5,7 @@
   "scripts": {
     "seed": "ts-node ./src/prisma/seed.ts",
     "build": "tsc --build",
-    "start": "node ./src/bin/www.js",
+    "start": "node ./dist/bin/www.js",
     "dev": "nodemon"
   },
   "dependencies": {
