@@ -6,10 +6,10 @@
 
 import app from "../app";
 import http from "http";
-// import dotenv from 'dotenv';
+import dotenv from "dotenv";
 var debug = require("debug")("unite:server");
 
-// dotenv.config({path: '.env'});
+dotenv.config({ path: ".env" });
 
 /**
  * Get port from environment and store in Express.
