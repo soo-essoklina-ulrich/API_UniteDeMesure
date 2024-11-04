@@ -5,7 +5,7 @@
   "scripts": {
     "seed": "ts-node ./src/prisma/seed.ts",
     "build": "tsc --build",
-    "start": "node dist/bin/www.js",
+    "start": "ts-node ./src/bin/www.ts",
     "dev": "nodemon",
     "vercel-build": "tsc --project tsconfig.json"
   },
