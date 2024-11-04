@@ -7,3 +7,5 @@ prisma/migrations
 .idea/
 .rest/
 tsconfig.tsbuildinfo
+
+.vercel
